@@ -55,11 +55,11 @@ for t in tech:
 unique_nessus_scans=list(np.unique(np.array(nessus_scans)))
 unique_nmap_scans=list(np.unique(np.array(nmap_scans)))
 
-with open('vulns.txt', 'w') as out:
+with open('vulns.json', 'w') as out:
 	json.dump(org_new_vulns, out, sort_keys=True, indent=4)
 
-with open('nessus_scans.txt', 'w') as out:
+with open('nessus_scans.json', 'w') as out:
 	json.dump(unique_nessus_scans, out, sort_keys=True, indent=4)
 
-with open('nmap_scans.txt', 'w') as out:
+with open('nmap_scans.json', 'w') as out:
 	json.dump(unique_nmap_scans, out, sort_keys=True, indent=4)
