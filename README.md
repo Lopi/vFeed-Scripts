@@ -4,7 +4,11 @@ A python script utilizing the vFeed API to create a customized vulnerability thr
 1. vulns.json
 2. nessus_scans.json
 3. nmap_scans.json
+
+
+
 ## Example Output
+
 ```
 -> % python threatfeed.py
 Updating the vFeed database from your scripts
@@ -20,6 +24,7 @@ Updating the vFeed database from your scripts
 [+] Exporting to JSON file CVE_2015_3946.json
 <..snip..>
 ```
+
 ## Sample nessus_scans.json output
 ```
 -> % cat nessus_scans.json
