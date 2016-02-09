@@ -1,7 +1,7 @@
 # vFeed-Scripts
 A python script utilizing the vFeed API to create a customized vulnerability threat feed based on your organization's technologies.
 # Example Output
--> % python threatfeed.py
+`-> % python threatfeed.py
 Updating the vFeed database from your scripts
 [+] Checking connectivity to http://www.toolswatch.org/vfeed/
 [+] Checking for the latest vFeed Vulnerability Database
@@ -13,9 +13,9 @@ Updating the vFeed database from your scripts
 [+] Exporting to JSON file CVE_2015_3943.json
 [!] CVE_2015_3943.json moved to export repository
 [+] Exporting to JSON file CVE_2015_3946.json
-<..snip..>
+<..snip..>`
 # Sample nessus_scans.json output
--> % cat nessus_scans.txt
+`-> % cat nessus_scans.json
 [
     {
         "Exploits": {
@@ -137,4 +137,4 @@ Updating the vFeed database from your scripts
             "Version": "0.6.0",
             "id": "VFD-2016-0502"
         }
-    },
+    },`
